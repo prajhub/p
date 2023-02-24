@@ -2,6 +2,7 @@ import React from 'react';
 
 import {heroData} from '../data'
 
+import Header from  '../components/Header'
 
 const Hero = () => {
 
@@ -11,7 +12,8 @@ const Hero = () => {
   return(
   
   <section className='lg:h-[900px] py-12'>
-    
+    <Header/>
+
     <div className='container mx-auto  h-full relative'>
         <div className=' flex flex-col xl:flex-row items-center h-full md:py-24'>
 
